@@ -49,6 +49,6 @@
  	const queryString = window.location.search;
 	console.log("queryString");
  	const urlParams = new URLSearchParams(queryString);
- 	console.log(urlParams.nombre);
+ 	const nombre = urlParams.get("nombre");
  </script>
 </body></html>
